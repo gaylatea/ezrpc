@@ -1,5 +1,5 @@
 {
-  "name": "ezrpc",
+  "name": "@silversupreme/ezrpc",
   "version": "1.0.0",
   "description": "An isomorphic Typescript RPC system that encrypts authenticated requests from users.",
   "main": "lib/index.js",
@@ -18,11 +18,11 @@
     "version": "npm run format && git add -A src",
     "postversion": "git push && git push --tags"
   },
-  "author": {
-    "name" : "Ari Adair",
-    "email" : "a+npm@silversupre.me"
+  "author": "Ari Adair <a+npm@silversupre.me>",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/silversupreme/ezrpc.git"
   },
-  "repository": "github:silversupreme/ezrpc",
   "license": "CC0-1.0",
   "dependencies": {
     "cross-fetch": "^3.0.6",
@@ -49,5 +49,14 @@
     "ts-jest": "^26.3.0",
     "ts-node": "^9.0.0",
     "typescript": "^4.0.2"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/silversupreme/ezrpc/issues"
+  },
+  "homepage": "https://github.com/silversupreme/ezrpc#readme",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "keywords": []
 }
